@@ -1,12 +1,12 @@
-::before,
-::after {
+.border:before,
+.border:after {
   content: "";
   width: 100%;
   position: absolute;
   left: 0;
   bottom: -1px;
   height: 4px;
-  /* background-color: #404bbf; */
+  background-color: #404bbf;
   border-radius: 2px;
 }
 .logo {
@@ -105,7 +105,7 @@ ul {
   color: #404bbf;
   background-color: #404bbf;
 }
-.title-box {
+.title-box .container {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
