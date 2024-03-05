@@ -1,5 +1,5 @@
-.border:hover:before,
-.border:hover:after {
+.border:before,
+.border:after {
   content: "";
   width: 100%;
   position: absolute;
