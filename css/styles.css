@@ -1,5 +1,5 @@
-.border:before,
-.border:after {
+.border:hover:before,
+.border:hover:after {
   content: "";
   width: 100%;
   position: absolute;
@@ -56,9 +56,6 @@ a {
   padding-bottom: 24px;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.one {
-  color: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -415,19 +412,19 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  top: 300px;
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;
   weight: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.show-text-on-images {
-  position: relative;
-  overflow: hidden;
   top: 0px;
 }
+
+.show-text-on-images {
+  overflow: hidden;
+  position: relative;
+}
 .item-ourportfolio:hover .text-on-image {
-  transform: translateY(-100%);
+  transform: translateY(0%);
 }
